@@ -158,6 +158,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
                 str = str.append(nine.getText());
                 disp.setText(str);
 
+                break;
             case R.id.zero:
                 if (num2 != 0) {
                     num2 = 0;
