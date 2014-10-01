@@ -244,8 +244,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
                         } else if (operator.equals("*")) {
                             disp.setText(Double.toString(num1));
                         } else if (operator.equals("/")) {
-                            disp.setText("");/*
-                            op1 = op1 / op2;*/
+                            disp.setText("");
                             disp.setText(Double.toString(num1));
                         }
                     } else {
